@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="WebSite_Icono" href="./assets/imagenes/logo.png">
+    <title>Proyecto-Final</title>
+</head>
+<body class="body">
+    
+    <!--Logo con SVG-->
+    
+    <nav>
+        <a href="./index.html">
+            <svg width="200" height="80"><!--  defino el ancho y alto del lienzo-->
+                <rect x="45" y="5" width="60" height="35" rx="5" id="monitor_1" fill="#F0E9D2"></rect>
+                <rect x="50" y="10" width="50" height="25" rx="5" id="monitor_2" fill="#495579"></rect>
+                <polygon points="55 45 ,95 45,115 62,30 62" fill="#F0E9D2" id="teclado_1"></polygon>
+                <polygon points="57 48 ,92 48,104 58,43 58" fill="#495579" id="teclado_2"></polygon>
+            </svg>
+            </a>
+
+        <!--Menú-->
+        <ul class="menu">
+            <li class="item_menu"><a class="item_link" href="./historia.html">HISTORIA</a></li>
+            <li class="item_menu"><a class="item_link" href="./juguemos.html">JUGUEMOS</a></li>
+        </ul>
+    </nav>
+    
+    <header>
+        <h1 class="titulo_blanco">PROGRAMACION E HISTORIA</h1>
+    </header>
+
+
+        <h2>CONTENIDO</h2>    
+    
+    <main class="contenedor_padre">
+ 
+
+
+       <!-- tarjetas  -->
+           <div class="tarjetas">
+               <img class="imagen_tarjeta" src="./assets/imagenes/img1.jpg" alt="imagen_tarjeta">
+               <p class="descripcion_tarjeta">Conozcamos un poco sobre la historia de la programacion </p>
+               <a class="boton_ver" href="./historia.html" style="color:#F0F5E4">Ir a Historia</a>
+           </div>
+
+
+            <div class="tarjetas">
+                <img class="imagen_tarjeta" src="./assets/imagenes/img2.jpg" alt="imagen_tarjeta">
+                <p class="descripcion_tarjeta">Juguemos un poco sobre la computacion</p>
+                <a class="boton_ver" href="./juguemos.html" style="color:#F0F5E4">Ir a juego</a>
+            </div>
+ 
+   </main>
+
+
+   <footer>
+        <div class="footer_1">
+        <img class="logo" src="./assets/imagenes/logo.png" alt="logo">
+            <h3 class="titulo_blanco titulo_footer">PROGRAMACION <br> E <br> HISTORIA </h3>
+        </div>
+           <div>Sitio con fines educativos - Creado por M.Victoria Lopez</div>
+    </footer>
+ 
+    <script src="./script.js"></script> <!--ACORDATE,el script general es diferente al del juego.-->
+
+
+</body></html>
